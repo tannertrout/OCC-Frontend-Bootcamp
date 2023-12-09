@@ -2,18 +2,19 @@ let score = parseInt(prompt("Enter the score:"));
 
 switch (score) {
     case score >= 90:
-        console.log("A")
-        break;
+        grade = "A";
     case score >= 80:
-        console.log("B")
+        grade = "B";
         break;
     case score >= 70:
-        console.log("C")
+        grade = "C";
         break;
     case score >= 60:
-        console.log("D")
+        grade = "D";
         break;
     default:
-        console.log("F")
+        grade = "F";
         break;
 }
+
+console.log("The grade for the score "  + score + " is " + grade);

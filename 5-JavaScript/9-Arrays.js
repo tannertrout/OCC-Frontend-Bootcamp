@@ -32,4 +32,9 @@ console.log("Index of is", superheroes.indexOf("Wonder Woman"));
 console.log("Joined Array:", superheroes.join("-"));
 
 let slicedArray = superheroes.slice(1, 4);
-console.log(slicedArray);
+console.log("Sliced Array:", slicedArray);
+console.log("Superheroes Array:", superheroes);
+
+let removedElements = superheroes.splice(2, 2);
+console.log("Removed Elements:", removedElements);
+console.log("Updated array:", superheroes);
